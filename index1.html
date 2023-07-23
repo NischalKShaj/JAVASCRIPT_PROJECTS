@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="header">test</h1>
+    <h1 class="header">test</h1>
+    <h1>helo</h1>
+
+    <script>
+        let x=document.getElementById('header')
+        document.getElementById("header").innerHTML="Check";
+        document.getElementsByClassName("header")[0].innerHTML = "checking"
+        document.getElementsByTagName("h1")[2].innerHTML = "checked"
+
+        x.style.color="red";
+        x.style.fontSize="60px";
+        x.style.background="black"
+
+    </script>
+</body>
+</html>
